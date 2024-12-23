@@ -4,7 +4,7 @@ include 'koneksi.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
 
-    // Validasi input
+    
     if (empty($name)) {
         echo "Nama kategori harus diisi!";
     } else {
